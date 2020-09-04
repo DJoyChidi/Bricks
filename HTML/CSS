@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grid boxes</title>
+      <link rel="shortcut icon" href="Documents/Chidinma.jpg">
+          <meta charset="UTF-8">
+
+<style>
+
+h1{
+display:grid;
+background-color:black;
+color:white;
+font-style:italic;
+font-weight:bold;
+text-align:center;
+padding:10px 5px;
+width:300px;
+position:sticky;
+top:0%;
+left:500px;
+}
+
+.gridAa{
+display:grid;
+color:white;
+grid-template-columns:auto auto;
+grid-gap:1px;
+border:1px solid black;
+height:100px;
+}
+
+.CAa{
+background-color:pink;
+}
+
+.CBb{
+background-color:green;
+}
+
+.grid{
+display:grid;
+color:white;
+grid-template-columns:auto auto auto;
+grid-gap:1px;
+border:1px solid black;
+height:100px;
+border-radius:10%;
+}
+
+.CA{
+background-color:yellow;
+}
+
+.CB{
+background-color:purple;
+}
+
+.CC{
+background-color:yellow;
+}
+
+.gridA{
+display:grid;
+color:white;
+grid-template-columns:auto auto auto auto;
+grid-gap:1px;
+border:1px solid black;
+height:100px;
+border-radius:10%;
+}
+
+.CD{
+background-color:pink;
+}
+
+.CE{
+background-color:green;
+}
+
+.CF{
+background-color:pink;
+}
+
+.CG{
+background-color:green;
+}
+
+.gridB{
+display:grid;
+color:white;
+grid-template-columns:auto auto auto auto auto;
+grid-gap:1px;
+border:1px solid black;
+height:100px;
+border-radius:10%;
+}
+
+.CH{
+background-color:purple;
+}
+
+.CI{
+background-color:yellow;
+}
+
+.CJ{
+background-color:purple;
+}
+
+.CY{
+background-color:yellow;
+}
+
+.CZ{
+background-color:purple;
+}
+
+.gridF{
+display:grid;
+color:white;
+grid-template-columns:auto auto;
+grid-gap:1px;
+border:1px solid black;
+height:100px;
+}
+
+.CW{
+background-color:tomato;
+}
+
+.CX{
+background-color:steelblue;
+}
+
+
+.gridC{
+display:grid;
+color:white;
+grid-template-columns:auto auto auto;
+grid-gap:1px;
+border:1px solid black;
+height:100px;
+border-radius:10%;
+}
+
+.CK{
+background-color:black;
+}
+
+.CL{
+background-color:violet;
+}
+
+.CM{
+background-color:black;
+}
+
+.gridD{
+display:grid;
+color:white;
+grid-template-columns:auto auto auto auto;
+grid-gap:1px;
+border:1px solid black;
+height:100px;
+border-radius:10%;
+}
+
+.CN{
+background-color:steelblue;
+}
+
+.CO{
+background-color:tomato;
+}
+
+.CP{
+background-color:steelblue;
+}
+
+.CQ{
+background-color:tomato;
+}
+
+.gridE{
+display:grid;
+color:white;
+grid-template-columns:auto auto auto auto auto;
+grid-gap:1px;
+border:1px solid black;
+height:100px;
+border-radius:10%;
+}
+
+.CR{
+background-color:violet;
+}
+
+.CS{
+background-color:black;
+}
+
+.CT{
+background-color:violet;
+}
+
+.CU{
+background-color:black;
+}
+
+.CV{
+background-color:violet;
+}
+
+.gridK{
+display:grid;
+color:white;
+grid-template-columns:auto auto;
+grid-gap:2px;
+border:1px;
+border:1px solid black;
+height:100px;
+}
+
+.Ka{
+background-color:#E3BC9A;
+}
+
+.Kb{
+background-color:maroon;
+}
+
+
+.gridG{
+display:grid;
+color:white;
+grid-template-columns:auto auto auto;
+grid-gap:1px;
+border:1px solid black;
+height:100px;
+border-radius:10%;
+}
+
+.Ga{
+background-color:#D8BFD8;
+}
+
+.Gb{
+background-color:#2F4F4F;
+}
+
+.Gc{
+background-color:#D8BFD8;
+}
+
+.gridH{
+display:grid;
+color:white;
+grid-template-columns:auto auto auto auto;
+grid-gap:1px;
+border:1px solid black;
+height:100px;
+border-radius:10%;
+}
+
+.Ha{
+background-color:#E3BC9A;
+}
+
+.Hb{
+background-color:maroon;
+}
+
+.Hc{
+background-color:#E3BC9A;
+}
+
+.Hd{
+background-color:maroon;
+}
+
+.gridJ{
+display:grid;
+color:white;
+grid-template-columns:auto auto auto auto auto;
+grid-gap:2px;
+height:100px;
+border-radius:10%;
+border:1px solid black;
+}
+
+.Ja{
+background-color:#2F4F4F;
+}
+
+.Jb{
+background-color:#D8BFD8;
+}
+
+.Jc{
+background-color:#2F4F4F;
+}
+
+.Jd{
+background-color:#D8BFD8;
+}
+
+.Je{
+background-color:#2F4F4F;
+}
+
+</style 
+
+</head>
+
+<body>
+<div><h1>GRID ASSIGNMENT</h1></div>
+
+<div class="gridK">
+<div class="gridK Ka">BLACK</div>
+<div class="gridK Kb">BROWN</div>
+</div>
+
+<div class="gridG">
+<div class="gridG Ga">BLUE</div>
+<div class="gridG Gb">BLACK</div>
+<div class="gridG Gc">BROWN</div>
+</div>
+
+<div class="gridH">
+<div class="gridH Ha">BLUE</div>
+<div class="gridH Hb">BLACK</div>
+<div class="gridH Hc">BROWN</div>
+<div class="gridH Hd">YELLOW</div>
+</div>
+
+<div class="gridJ">
+<div class="gridJ Ja">BLUE</div>
+<div class="gridJ Jb">BLACK</div>
+<div class="gridJ Jc">BROWN</div>
+<div class="gridJ Jd">YELLOW</div>
+<div class="gridJ Je">BLUE</div>
+</div>
+
+<div class="gridF">
+<div class="gridF CW">BLACK</div>
+<div class="gridF CX">BROWN</div>
+</div>
+
+<div class="gridC">
+<div class="gridC CK">BLUE</div>
+<div class="gridC CL">BLACK</div>
+<div class="gridC CM">BROWN</div>
+</div>
+
+<div class="gridD">
+<div class="gridD CO">BLUE</div>
+<div class="gridD CP">BLACK</div>
+<div class="gridD CQ">BROWN</div>
+<div class="gridD CN">YELLOW</div>
+</div>
+
+<div class="gridE">
+<div class="gridE CR">BLUE</div>
+<div class="gridE CS">BLACK</div>
+<div class="gridE CT">BROWN</div>
+<div class="gridE CU">YELLOW</div>
+<div class="gridE CV">BLUE</div>
+</div>
+
+<div class="gridAa">
+<div class="gridAa CAa">BLUE</div>
+<div class="gridAa CBb">BLACK</div>
+</div>
+
+<div class="grid">
+<div class="grid CA">BLUE</div>
+<div class="grid CB">BLACK</div>
+<div class="grid CC">BROWN</div>
+</div>
+
+<div class="gridA">
+<div class="gridA CD">BLUE</div>
+<div class="gridA CE">BLACK</div>
+<div class="gridA CF">BROWN</div>
+<div class="gridA CG">YELLOW</div>
+</div>
+
+<div class="gridB">
+<div class="gridB CH">BLUE</div>
+<div class="gridB CI">BLACK</div>
+<div class="gridB CJ">BROWN</div>
+<div class="gridB CY">BROWN</div>
+<div class="gridB CZ">BROWN</div>
+</div>
+
+</body>
+</html>
+
